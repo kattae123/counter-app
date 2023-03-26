@@ -1,0 +1,35 @@
+
+
+html,
+body {
+  background-color: #21232a;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.3rem;
+  padding: 70px;
+  text-align: center;
+}
+
+button {
+  padding: 4px 7px;
+  font-size: 1.3rem;
+  color: #fff;
+  background: rgb(56, 9, 201);
+  background: linear-gradient(
+    0deg,
+    rgba(56, 9, 201, 1) 16%,
+    rgba(157, 27, 255, 1) 100%
+  );
+  border: none;
+  border-radius: 20px;
+  margin-right: 5px;
+}
+
+button:hover {
+  background: rgb(56, 9, 201);
+  background: linear-gradient(
+    0deg,
+    rgb(83, 36, 224) 16%,
+    rgb(165, 79, 231) 100%
+  );
+}
